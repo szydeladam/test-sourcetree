@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="pl">
+<head>
+  <meta charset="utf-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Moja pierwsza aplikacja w Bootstrapie</title>
+<link rel="stylesheet" type="text/css" href="css/bootstrap.css">
+<!--[if it IE 9]-->
+<script src="https://oss.maxcdn.com/libs/html5shiv/3.7.0/html5shiv.js"></script>
+<script src="https://oss.maxcdn.com/libs/respond.js/1.4.2/respond.min.js"></script>
+<!--[endif]-->
+</head>
+<body>
+  <div class="container">
+  <div class="page-header">
+    <h1>Rozdział 3. <small>Pierwsze spotkanie z komponentami Bootstrapa</small></h1>
+  </div>
+  <hr>
+  <!--panel-->
+  <div class="panel panel-default">
+    <div class="panel-heading">
+      UWAGA
+    </div>
+    <div class="panel-body">
+      Panele służą do wyświetlania tekstu albo obrazków w ramce o zaokrąglonych rogach. Poniżej znajduje się kod przykładowego panelu, zaś z jego wyglądem możesz się zapoznać na rysunku 3.4.
+  </div>
+  <div class="panel-footer">
+    <a href="#" class="btn btn-danger btn-sm">ZGODA</a><a href="#" class="btn btn-default btn-sm">Odmowa</a>
+  </div>
+</div>
+</div>
+<div class="media">
+  <a class="pull-left" href="#">
+    <img class="media-object" src="../jpg/jarek.jpg" alt="Jarosław Kaczyński">
+  </a>
+
+<div class="media-body">
+<h4 class="media-heading">Fantastyczna robota!</h4>
+<p>Aby utworzyć obiekt mediów, należy umieścić w kodzie znacznik div klasy media. Następnie trzeba w nim umieścić dwa niezbędne komponenty: sam obiekt multimedialny (w tym przypadku obrazek) oraz komponent media-body. Jak widać na powyższym przykładzie, należy przypisać do obiektu klasę media-object i ująć go w znaczniki <a></a>. Następnie można wyrównać obiekt do lewej albo prawej strony przy użyciu klasy pull-left albo pull-right dla elementu a.
+</p>
+</div>
+</div>
+
+
+<script src="js/jquery.js"></script>
+<script src="js/bootstrap.js"></script>
+</body>
+</html>
